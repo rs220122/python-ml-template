@@ -2,6 +2,7 @@
 
 python-dotenv==1.0.1
 pytest==8.1.2
+ruff==0.4.2
 
 ## azure 
 azure-identity==1.15.0
