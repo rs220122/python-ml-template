@@ -1,10 +1,12 @@
 name: Python application test with Ruff linting
 
 on:
-  push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
+  # push, pull_requesetをONにすると、push,PRが行われた際に自動的に実行する様になる。
+  # push:
+  #   branches: [ main ]
+  # pull_request:
+  #   branches: [ main ]
+  workflow_dispatch:
 
 jobs:
   build-and-lint:
