@@ -1,12 +1,15 @@
 # Python MLプロジェクト　テンプレート
 
 ## ファイル構成
-```
-installation: 環境セットアップに使うファイルを格納。 (`Dockerfile`, `requirements.txt`, `conda_env.yaml` etc)
-docs: ドキュメントを格納(アーキテクチャ図、フローチャート、シーケンス図など)
-pipelines: 機械学習パイプライの格納
-src: ソースコードの格納
-```
+| ディレクトリ   | 内容                                             |
+|------------|------------------------------------------------|
+| `installation` | 環境セットアップに使用するファイル (`Dockerfile`, `requirements.txt`, `conda_env.yaml` など) |
+| `docs`         | ドキュメント (アーキテクチャ図、フローチャート、シーケンス図など)                  |
+| `pipelines`    | 機械学習パイプラインの格納                                      |
+| `src`          | ソースコードの格納                                          |
+| `tests`        | テストコードの格納 (`pytest`を想定)                             |
+| `notebooks`    | 実験用Jupyterノートブックの格納                                   |
+
 
 ## 環境セットアップ
 例
