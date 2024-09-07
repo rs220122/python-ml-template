@@ -14,7 +14,8 @@
         "zhuangtongfa.material-theme",
         "ms-python.black-formatter",
         "pkief.material-icon-theme",
-        "bierner.markdown-mermaid"
+        "bierner.markdown-mermaid",
+        "hediet.vscode-drawio",
     ],
 
     
